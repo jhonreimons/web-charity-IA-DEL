@@ -1,0 +1,55 @@
+label {
+	padding-left: 1rem;
+}
+
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	background-color: rgb(144, 168, 255);
+	color: rgb(0, 0, 0);
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.sidebar li a {
+	padding-bottom: 1rem;
+	list-style-type: none;
+	list-style: none;
+	color: white;
+}
+
+.sidebar li {
+	padding-bottom: 1rem;
+	list-style-type: none;
+	list-style: none;
+	color: white;
+}
+
+.sidebar ul {
+	padding-bottom: 1rem;
+	list-style-type: none;
+	list-style: none;
+}
+
+.sidebar .sidebar-brand .title .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#sidebar .main-content {
+	padding-left: 210px;
+	transition: margin-left 500ms;
+}
+
+#sidebar-togle {
+	display: none;
+}
+
+#sidebar-togle:checked .sidebar .sidebar-header h5 span :last-child {
+	display: none;
+}

@@ -1,0 +1,10 @@
+Cara menjalankan aplikasi di local komputer anda
+1. Masukkan file ZIP program ke dalam folder xampp/htdocs(kedalam folder htdocs yang ada pada folder xamopp anda)
+2. Extrak ZIP, Kemudian folder dan restore file web_charity.sql yang ada di dalam foder dengan nama database "charity_web".
+3. Kemudian jalankan di borwser dengan link "http://localhost:/web_charity
+4. Anda dapat login dengan akun sebagai admin:
+    username : admin123
+    password : admin321
+dan juga sebagai user dengan menggunakan salah satu akun
+    username : user123
+    password : user123
